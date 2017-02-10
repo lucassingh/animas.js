@@ -1,12 +1,61 @@
+@font-face {
+    font-family: california;
+    src: url(../fonts/California.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .container{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: arial;
 }
 
-img{
-  width: 30vw;
+.cont-examples{
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.cont-header{
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display:flex;
+  padding-bottom: 2vw;
+}
+
+h1 {
+  font-family: 'california';
+  font-size: 11vw;
+  color: #000;
+  margin-bottom: 2vw;
+  margin-top: 1vw;
+}
+
+span {
+  font-family: 'california';
+  font-size: 2vw;
+  text-align: center;
+}
+
+.cont-animation{
+  width: 60%;
+  height: 20vw;
+  border: 0.1vw solid #000;
+  background-color:#c7fdff;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
