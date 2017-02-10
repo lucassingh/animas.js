@@ -1,0 +1,39 @@
+/*-----------Example 1------------*/
+
+#square0{
+  width: 6vw;
+  height: 6vw;
+  background-color: #B40404;
+  border: 2px solid black;
+  border-radius: 0.5vw
+}
+
+/*-----------Example 2------------*/
+
+#square1{
+  width: 6vw;
+  height: 6vw;
+  background-color: #DF0101;
+  border: 2px solid black;
+  border-radius: 0.5vw
+}
+
+/*-----------Example 3------------*/
+
+#square2{
+  width: 6vw;
+  height: 6vw;
+  background-color: #FF0000;
+  border: 2px solid black;
+  border-radius: 0.5vw
+}
+
+/*-----------Example 4------------*/
+
+#square3{
+  width: 6vw;
+  height: 6vw;
+  background-color: #FE2E2E;
+  border: 2px solid black;
+  border-radius: 0.5vw
+}
