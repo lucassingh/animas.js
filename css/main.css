@@ -140,10 +140,24 @@ span {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4682b4', endColorstr='#1b1c33',GradientType=0 );
 }
 
+.cont-title-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .cont-example{
   width: 80%;
   display: flex;
   margin-top: 4vw;
+}
+
+h2{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2.5vw;
+  color:#BDBDBD;
 }
 
 .cont-title{
@@ -157,13 +171,15 @@ span {
 
 h3{
   font-family: 'Fredericka the Great', cursive;
-  font-size: 2.5vw;
+  font-size: 2vw;
+  color:#BDBDBD;
 }
 
 #subtitle{
   font-family: 'Fredericka the Great', cursive;
   font-size: 1.5vw;
   padding-top: 0.5vw;
+  color:#BDBDBD;
 }
 
 .cont-box{
