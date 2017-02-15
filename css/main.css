@@ -10,18 +10,16 @@ overflow-x: hidden;
 }
 
 .portada{
-  width: 100%;
-  height: 46vw;
-  align-items: center;
-  justify-content:space-between;
-  display:flex;
-  background: #0a2833;
+width: 100%;
+height: 46vw;
+align-items: center;
+justify-content:space-between;
+display:flex;
+background: #0a2833;
 background: -moz-linear-gradient(top,  #0a2833 0%, #e5892d 15%, #f98831 31%, #f98831 31%, #f98831 51%, #f98831 51%, #efcf2f 80%, #efcf2f 88%, #efcf2f 90%, #f4ef84 100%);
 background: -webkit-linear-gradient(top,  #0a2833 0%,#e5892d 15%,#f98831 31%,#f98831 31%,#f98831 51%,#f98831 51%,#efcf2f 80%,#efcf2f 88%,#efcf2f 90%,#f4ef84 100%);
 background: linear-gradient(to bottom,  #0a2833 0%,#e5892d 15%,#f98831 31%,#f98831 31%,#f98831 51%,#f98831 51%,#efcf2f 80%,#efcf2f 88%,#efcf2f 90%,#f4ef84 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2833', endColorstr='#f4ef84',GradientType=0 );
-
-
 }
 
 .cont-site{
@@ -196,11 +194,48 @@ h3{
 box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
 }
 
+.cont-buttons{
+  display: flex;
+  flex-direction: column;
+  width: 5vw;
+}
+
+#button{
+  color:#fff;
+  background: #242761;
+  border-radius: 0.5vw;
+}
+
+.button{
+  margin-top: 0.5vw;
+}
+
+.cont-buttons-2{
+  display: flex;
+  flex-direction: column;
+  width: 5vw;
+}
+
+.cont-figure-2{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  margin-left: 16vw;
+}
+
 .cont-order{
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cont-order-2 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4vw;
 }
 
 .cont-figure{
