@@ -190,8 +190,8 @@ h3{
   border-radius: 10vw;
   background-color:#f0edf0;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
--moz-box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
-box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
+  box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
 }
 
 .cont-buttons{
@@ -200,20 +200,22 @@ box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
   width: 5vw;
 }
 
-#button{
-  color:#fff;
-  background: #242761;
-  border-radius: 0.5vw;
-}
-
-.button{
-  margin-top: 0.5vw;
-}
-
 .cont-buttons-2{
   display: flex;
   flex-direction: column;
   width: 5vw;
+}
+
+
+#button{
+  color:#fff;
+  background: #242761;
+  border-radius: 0.5vw;
+  height: 2vw;
+}
+
+.button{
+  margin-top: 0.5vw;
 }
 
 .cont-figure-2{

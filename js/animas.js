@@ -139,3 +139,12 @@ $(document).ready(function() {
       $('.content-slider-2').animate({width:'toggle'},350);
     	});
 		});
+
+	/*-----------Example 15------------*/
+
+	$(document).ready(function(){
+    $('.btn11').click(function(){
+      $('.cont-box-color').css('background-image', 'url("img/bg.jpg")');
+			  $('.btn11').css('opacity','0');
+    	});
+		});
