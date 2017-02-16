@@ -9,7 +9,7 @@ body{
 overflow-x: hidden;
 }
 
-.portada{
+.landing{
 width: 100%;
 height: 46vw;
 align-items: center;
@@ -37,9 +37,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2833', end
   flex-direction: column;
   display:flex;
   padding-bottom: 1vw;
-  margin-top: -12vw;
+  margin-top: -13vw;
   margin-left: -7vw;
-
 }
 
 .cont-img-island{
@@ -97,11 +96,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2833', end
 
 
 h1 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 8vw;
-  color: #000;
-  margin-bottom: 2vw;
-  margin-top: -1vw;
+  font-family: 'Fredericka the Great', cursive !important;
+  font-size: 8vw !important;
+  color: #000 !important;
+  margin-bottom: 2vw !important;
+  margin-top: -1vw !important;
 }
 
 span {
@@ -123,7 +122,36 @@ span {
   opacity: 0;
 }
 
-.container{
+.cont-button-header{
+  display: flex;
+  width: 40%;
+  flex-direction:row;
+  margin-top: 1.5vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  color: #000;
+  background-color:inherit;
+  border-color: #000;
+}
+
+.btn-success {
+  color: #000;
+  background-color:inherit;
+  border-color: #000;
+}
+
+.fa-download:before {
+  padding-right: 4px !important;
+}
+
+.fa-github:before {
+  padding-right: 4px !important;
+}
+
+.cont-examples{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -168,9 +196,9 @@ h2{
 }
 
 h3{
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 2vw;
-  color:#BDBDBD;
+  font-family: 'Fredericka the Great', cursive !important;
+  font-size: 2vw !important;
+  color:#BDBDBD !important;
 }
 
 #subtitle{

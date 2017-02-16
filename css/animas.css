@@ -217,7 +217,7 @@
   justify-content: center;
   align-items: center;
   display: none;
-  text-align: center;  
+  text-align: center;
 }
 
 #span-content-2{
@@ -258,4 +258,133 @@
   -webkit-box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
   -moz-box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
   box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
+}
+
+/*-----------Example 16-----------*/
+
+.cont-box-4{
+  width: 80%;
+  height: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10vw;
+  background-color:#f0edf0;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
+  box-shadow: 10px 10px 5px 0px rgba(54,50,54,1);
+}
+
+.cont-order-3 {
+  width: 12%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+#step-1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#step-2{
+  display: none;
+}
+
+.cont-text-step{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#span-text{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 5.5vw;
+  color: #1b1c33;
+}
+
+.btn14{
+  color: #fff;
+  background: #242761;
+  border-radius: 0.5vw;
+  height: 2vw;
+  width: 6vw;
+  margin-top: -5vw;
+}
+
+.cont-loader{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.cont-bars{
+  display: flex;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 6vh;
+}
+
+.cont-box-progress{
+  width: 100%;
+  display: flex;
+  height: 4vh;
+}
+
+.cont-progress{
+  width: 100%;
+}
+
+.backgroundProgress {
+  width: 25%;
+  height: 2vw;
+  background-color: #1b1c33;
+  border-style: solid;
+  border-width: 0.3vw;
+  border-color: #1b1c33;
+  border-radius: 20vw;
+  position: absolute;
+}
+
+.progress {
+  width: 7%;
+  height: 1.5vw;
+  background-color: background: #30f4ee;
+  background: -moz-radial-gradient(center, ellipse cover,  #30f4ee 1%, #171063 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  #30f4ee 1%,#171063 100%);
+  background: radial-gradient(ellipse at center,  #30f4ee 1%,#171063 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30f4ee', endColorstr='#171063',GradientType=1 );
+  border-radius: 20vw;
+  position: absolute;
+}
+
+.marker {
+  width: 1.5vw;
+  height: 1.5vw;
+  background: #fff;
+  border-radius: 20vw;
+  position: absolute;
+}
+
+.contPercent{
+  flex-direction: column;
+}
+
+.contPercent span{
+	font-family: arial;
+	font-size: 3vw;
+	color: #1b1c33;
+	font-weight: bold;
 }
